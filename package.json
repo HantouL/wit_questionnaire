@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "echarts": "^5.4.3",
+    "vue-echarts": "^6.6.8",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "unplugin-auto-import": "^0.16.7",
+    "unplugin-vue-components": "^0.25.2"
+  }
+}

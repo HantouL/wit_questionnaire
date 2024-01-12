@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af4a0325-4c0f-4420-859d-c7f559dbfdb9" name="Changes" comment="-- 新增swagger生成接口文档&#10;-- 新增项目环境配置切换">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-backend/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-project-backend/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-backend/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-project-backend/src/main/resources/application-prod.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Vue Single File Component" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/my-project-backend" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xms1024m -Xmx2048m" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="prod" />
+        <option value="jdk-17" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+  </component>
+  <component name="ProjectId" id="2Y2JctoukvAt5pYhUkSfYIbBToV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Baima/my-project/my-project-backend/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;80c6b4d10458cd7c10aaf1f192f55c13&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\IDEA U版\\IntelliJ IDEA 2022.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Baima\my-project\my-project-backend\src\main\resources" />
+      <recent name="E:\Baima\my-project\my-project-frontend\src\components\views\UserAnswers" />
+      <recent name="E:\Baima\my-project\my-project-frontend\src\components\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Baima\my-project\my-project-frontend\src\components\views\questionnaire" />
+      <recent name="E:\Baima\my-project\my-project-frontend\src\components\views\settings" />
+      <recent name="E:\Baima\my-project\my-project-frontend\src\components\components" />
+      <recent name="E:\Baima\my-project\my-project-frontend\src\components\views" />
+      <recent name="E:\Baima\my-project\my-project-backend" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.backend">
+    <configuration name="MyProjectBackendApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="my-project-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.MyProjectBackendApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyProjectBackendApplicationTests.testWordCloud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-project-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.MyProjectBackendApplicationTests" />
+      <option name="METHOD_NAME" value="testWordCloud" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:5173">
+      <method v="2" />
+    </configuration>
+    <configuration name="aliyunRemote" type="Remote">
+      <module name="my-project-backend" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="47.115.219.222" />
+      <option name="PORT" value="8088" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8088" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="backend" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="my-project-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.MyProjectBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-project-frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-project-frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="JUnit.MyProjectBackendApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.MyProjectBackendApplicationTests.testWordCloud" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="Remote JVM Debug.aliyunRemote" />
+      <item itemvalue="Spring Boot.backend" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="JUnit.MyProjectBackendApplicationTests.testWordCloud" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af4a0325-4c0f-4420-859d-c7f559dbfdb9" name="Changes" comment="" />
+      <created>1699717824677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699717824677</updated>
+      <workItem from="1699717826394" duration="3623000" />
+      <workItem from="1699721491687" duration="268000" />
+      <workItem from="1699721776593" duration="580000" />
+      <workItem from="1699722378773" duration="148000" />
+      <workItem from="1699722559538" duration="1584000" />
+      <workItem from="1699724185484" duration="136000" />
+      <workItem from="1699724332602" duration="2076000" />
+      <workItem from="1699797065693" duration="3935000" />
+      <workItem from="1699842988657" duration="7783000" />
+      <workItem from="1699894693693" duration="10422000" />
+      <workItem from="1699944820019" duration="1548000" />
+      <workItem from="1699960097871" duration="1738000" />
+      <workItem from="1700059519161" duration="11298000" />
+      <workItem from="1700144649743" duration="10069000" />
+      <workItem from="1700156042157" duration="1574000" />
+      <workItem from="1700190964444" duration="7999000" />
+      <workItem from="1700441670806" duration="9839000" />
+      <workItem from="1700482780571" duration="259000" />
+      <workItem from="1700496093411" duration="695000" />
+      <workItem from="1700548084305" duration="7820000" />
+      <workItem from="1700709600904" duration="2233000" />
+      <workItem from="1700747762905" duration="4737000" />
+      <workItem from="1700836602753" duration="123000" />
+      <workItem from="1701002453333" duration="3198000" />
+      <workItem from="1701005716611" duration="1600000" />
+      <workItem from="1701335002349" duration="143000" />
+      <workItem from="1701356646915" duration="7000" />
+      <workItem from="1702277151019" duration="10397000" />
+      <workItem from="1702299824509" duration="1232000" />
+      <workItem from="1702301085106" duration="178000" />
+      <workItem from="1702301300509" duration="55000" />
+      <workItem from="1702355814413" duration="363000" />
+      <workItem from="1702368593621" duration="10795000" />
+      <workItem from="1702396378296" duration="13081000" />
+      <workItem from="1702448844515" duration="64000" />
+      <workItem from="1702448932941" duration="11082000" />
+      <workItem from="1702473092389" duration="23721000" />
+      <workItem from="1702564042621" duration="17942000" />
+      <workItem from="1702696405053" duration="21252000" />
+      <workItem from="1702791587209" duration="7625000" />
+      <workItem from="1702803330157" duration="13969000" />
+      <workItem from="1702962447273" duration="1650000" />
+      <workItem from="1702991365091" duration="19365000" />
+      <workItem from="1703092132706" duration="4677000" />
+      <workItem from="1703126157800" duration="3655000" />
+      <workItem from="1703162736295" duration="9235000" />
+      <workItem from="1703249031965" duration="3459000" />
+      <workItem from="1703332014907" duration="1033000" />
+      <workItem from="1703831958546" duration="1199000" />
+      <workItem from="1704168002073" duration="21039000" />
+      <workItem from="1704252414020" duration="9262000" />
+      <workItem from="1704290091369" duration="11512000" />
+      <workItem from="1704346513097" duration="12971000" />
+      <workItem from="1704380829179" duration="6413000" />
+      <workItem from="1704598428364" duration="6988000" />
+      <workItem from="1704617594084" duration="20237000" />
+      <workItem from="1704704618000" duration="923000" />
+      <workItem from="1704731395316" duration="2000" />
+      <workItem from="1704735048546" duration="496000" />
+      <workItem from="1704777564405" duration="7343000" />
+      <workItem from="1704794990563" duration="3413000" />
+      <workItem from="1704798455325" duration="7506000" />
+      <workItem from="1704858688213" duration="1903000" />
+      <workItem from="1704944680233" duration="4908000" />
+      <workItem from="1704974430226" duration="4376000" />
+      <workItem from="1705028593788" duration="606000" />
+      <workItem from="1705042439001" duration="2000" />
+      <workItem from="1705043025520" duration="2821000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始项目创建">
+      <created>1699718885863</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699718885863</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Security的登录登出配置">
+      <created>1699725168775</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699725168775</updated>
+    </task>
+    <task id="LOCAL-00003" summary="完成了登出时对jwt令牌的拉黑名单操作">
+      <created>1699898002181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699898002181</updated>
+    </task>
+    <task id="LOCAL-00004" summary="完成了使用数据库中的账号进行Security的登录操作">
+      <created>1699931866999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699931867000</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- 完成前端登录界面&#10;- 完成后端跨域请求的配置/自定跨域过滤器的编写">
+      <created>1700071327164</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700071327164</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- 完成了登陆成功后的路由跳转&#10;- 完成了后端向邮箱发送验证码的开发">
+      <created>1700157606109</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700157606109</updated>
+    </task>
+    <task id="LOCAL-00007" summary="- 完成了注册接口的实现&#10;- 完成了注册页面的开发">
+      <created>1700204958020</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700204958020</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- 完成了注册接口&#10;- 完成了部分重设密码的开发">
+      <created>1700452953999</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700452953999</updated>
+    </task>
+    <task id="LOCAL-00009" summary="- 基本开发全部完成&#10;&#10;-- 因为深色模式的依赖下不下来,没做深色模式">
+      <created>1701006105383</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701006105383</updated>
+    </task>
+    <task id="LOCAL-00010" summary="-- 完成首页页头&#10;-- 使用pinia完成了前端请求的信息的持久化&#10;-- 后端新增Account接口">
+      <created>1702301332717</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702301332717</updated>
+    </task>
+    <task id="LOCAL-00011" summary="-- 完成了用戶信息设置的前端开发">
+      <created>1702399192044</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702399192044</updated>
+    </task>
+    <task id="LOCAL-00012" summary="-- 完成了用戶信息设置的前后端开发&#10;&#10;-- TODO: 后端管理员特权API接口的保护">
+      <created>1702458110414</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702458110414</updated>
+    </task>
+    <task id="LOCAL-00013" summary="-- 完成了后端管理员特权API接口的鉴权保护&#10;-- 完成了用户管理前端页面的开发&#10;-- 完成了查询所有用户的后端接口&#10;&#10;-- TODO: 编辑用户">
+      <created>1702489394397</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702489394397</updated>
+    </task>
+    <task id="LOCAL-00014" summary="-- 完成后端管理员删除用户的接口&#10;-- 完善用户管理前端页面的开发">
+      <created>1702545492738</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702545492738</updated>
+    </task>
+    <task id="LOCAL-00015" summary="-- 完成了部分调查问卷的前台前端开发&#10;-- 完成了数据库表的基本设计&#10;-- 完成了后端查询问卷总览的开发&#10;-- 新增了问卷表单的组件&#10;&#10;-- TODO 完成填写问卷表部分的后端开发">
+      <created>1702576328747</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702576328747</updated>
+    </task>
+    <task id="LOCAL-00016" summary="-- 完成了部分调查问卷的提交部分的前后端设计&#10;-- 完善了问卷数据库的设计">
+      <created>1702713973905</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702713973905</updated>
+    </task>
+    <task id="LOCAL-00017" summary="-- 完成了创建问卷部分的的前后端基本设计">
+      <created>1702814762724</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702814762724</updated>
+    </task>
+    <task id="LOCAL-00018" summary="-- 全部功能开发基本完成&#10;-- 后端新增管理员管理问卷的各种接口&#10;-- 使用原生Mapper实现了部分查询&#10;-- 完善了前端逻辑,防止错误提交&#10;&#10;-- TODO 阻止空问卷的提交">
+      <created>1702889983007</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702889983007</updated>
+    </task>
+    <task id="LOCAL-00019" summary="-- 完善逻辑">
+      <created>1702996932808</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1702996932808</updated>
+    </task>
+    <task id="LOCAL-00020" summary="-- 修改了数据库的外键问题&#10;-- 新增了管理员查询用户问卷填写情况的前端+后端&#10;-- 修正了一系列前端逻辑&#10;-- 为登录页面添加了背景图片&#10;-- 优化了路由结构">
+      <created>1703006312408</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1703006312408</updated>
+    </task>
+    <task id="LOCAL-00021" summary="-- 2023-12-20 进一步优化细节">
+      <created>1703092438700</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1703092438700</updated>
+    </task>
+    <task id="LOCAL-00022" summary="-- 修改ui: 在创建问卷时能够点击新增选项来创建一个文本框输入选项&#10;-- 完善前端发布问卷的逻辑判断,对空问卷空问题进行限制">
+      <created>1703096807197</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1703096807197</updated>
+    </task>
+    <task id="LOCAL-00023" summary="-- 进一步修改细节">
+      <created>1703249758660</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1703249758660</updated>
+    </task>
+    <task id="LOCAL-00024" summary="--- 开始第二阶段的开发 ---&#10;&#10;-- 新增了自定义头像的功能">
+      <created>1704200969815</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1704200969815</updated>
+    </task>
+    <task id="LOCAL-00025" summary="-- 新增了超级管理员superAdmin用户类型&#10;-- 新增了管理员和超级管理员可以修改部分用户核心信息的功能&#10;&#10;-- TODO: 在提交后,需要让token失效,不然仍使用原来的token会导致用户对应token的权限和当前数据库内权限不一致">
+      <created>1704303501683</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1704303501683</updated>
+    </task>
+    <task id="LOCAL-00026" summary="-- 在token里新增了用户的role信息,以便在特权操作时判断出用户类型&#10;-- 新增了管理员/超管新增对应用户的功能&#10;&#10;--TODO 修改用户类型时将token拉黑的操作">
+      <created>1704358001459</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1704358001459</updated>
+    </task>
+    <task id="LOCAL-00027" summary="-- 实现了问卷调查结果可视化&#10;&#10;-- TODO: 进一步优化图表显示组件">
+      <created>1704648679636</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1704648679636</updated>
+    </task>
+    <task id="LOCAL-00028" summary="-- 优化后端图表统计判空逻辑&#10;-- 优化图表展示效果">
+      <created>1704702475086</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1704702475086</updated>
+    </task>
+    <task id="LOCAL-00029" summary="-- 新增swagger生成接口文档&#10;-- 新增项目环境配置切换">
+      <created>1704977788929</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1704977788930</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="- 完成前端登录界面&#10;- 完成后端跨域请求的配置/自定跨域过滤器的编写" />
+    <MESSAGE value="- 完成了登陆成功后的路由跳转&#10;- 完成了后端向邮箱发送验证码的开发" />
+    <MESSAGE value="- 完成了注册接口的实现&#10;- 完成了注册页面的开发" />
+    <MESSAGE value="- 完成了注册接口&#10;- 完成了部分重设密码的开发" />
+    <MESSAGE value="- 基本开发全部完成&#10;&#10;-- 因为深色模式的依赖下不下来,没做深色模式" />
+    <MESSAGE value="-- 完成首页页头&#10;-- 使用pinia完成了前端请求的信息的持久化&#10;-- 后端新增Account接口" />
+    <MESSAGE value="-- 完成了用戶信息设置的前端开发" />
+    <MESSAGE value="-- 完成了用戶信息设置的前后端开发&#10;&#10;-- TODO: 后端管理员特权API接口的保护" />
+    <MESSAGE value="-- 完成了后端管理员特权API接口的鉴权保护&#10;-- 完成了用户管理前端页面的开发&#10;-- 完成了查询所有用户的后端接口&#10;&#10;-- TODO: 编辑用户" />
+    <MESSAGE value="-- 完成后端管理员删除用户的接口&#10;-- 完善用户管理前端页面的开发" />
+    <MESSAGE value="-- 完成了部分调查问卷的前台前端开发&#10;-- 完成了数据库表的基本设计&#10;-- 完成了后端查询问卷总览的开发&#10;-- 新增了问卷表单的组件&#10;&#10;-- TODO 完成填写问卷表部分的后端开发" />
+    <MESSAGE value="-- 完成了部分调查问卷的提交部分的前后端设计&#10;-- 完善了问卷数据库的设计" />
+    <MESSAGE value="-- 完成了创建问卷部分的的前后端基本设计" />
+    <MESSAGE value="-- 全部功能开发基本完成&#10;-- 后端新增管理员管理问卷的各种接口&#10;-- 使用原生Mapper实现了部分查询&#10;-- 完善了前端逻辑,防止错误提交&#10;&#10;-- TODO 阻止空问卷的提交" />
+    <MESSAGE value="-- 完善逻辑" />
+    <MESSAGE value="-- 修改了数据库的外键问题&#10;-- 新增了管理员查询用户问卷填写情况的前端+后端&#10;-- 修正了一系列前端逻辑&#10;-- 为登录页面添加了背景图片&#10;-- 优化了路由结构" />
+    <MESSAGE value="-- 2023-12-20 进一步优化细节" />
+    <MESSAGE value="-- 修改ui: 在创建问卷时能够点击新增选项来创建一个文本框输入选项&#10;-- 完善前端发布问卷的逻辑判断,对空问卷空问题进行限制" />
+    <MESSAGE value="-- 进一步修改细节" />
+    <MESSAGE value="--- 开始第二阶段的开发 ---&#10;&#10;-- 新增了自定义头像的功能" />
+    <MESSAGE value="-- 新增了超级管理员superAdmin用户类型&#10;-- 新增了管理员和超级管理员可以修改部分用户核心信息的功能&#10;&#10;-- TODO: 在提交后,需要让token失效,不然仍使用原来的token会导致用户对应token的权限和当前数据库内权限不一致" />
+    <MESSAGE value="-- 在token里新增了用户的role信息,以便在特权操作时判断出用户类型&#10;-- 新增了管理员/超管新增对应用户的功能&#10;&#10;--TODO 修改用户类型时将token拉黑的操作" />
+    <MESSAGE value="-- 实现了问卷调查结果可视化&#10;&#10;-- TODO: 进一步优化图表显示组件" />
+    <MESSAGE value="-- 优化后端图表统计判空逻辑&#10;-- 优化图表展示效果" />
+    <MESSAGE value="-- 新增swagger生成接口文档&#10;-- 新增项目环境配置切换" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- 新增swagger生成接口文档&#10;-- 新增项目环境配置切换" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/my-project-frontend/src/components/views/questionnaire/MyPostedQuestionnaire.vue</url>
+          <line>30</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/my-project-frontend/src/components/views/questionnaire/MyWrittenQuestionnaire.vue</url>
+          <line>29</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.example.entity.dto.Account" memberName="registerTime" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

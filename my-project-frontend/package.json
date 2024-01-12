@@ -1,0 +1,27 @@
+{
+  "name": "my-project-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@vue/reactivity": "^3.4.5",
+    "axios": "^1.6.2",
+    "date-fns": "^2.30.0",
+    "element-plus": "^2.4.2",
+    "less-loader": "^11.1.3",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "less": "^4.2.0",
+    "sass": "^1.69.5",
+    "vite": "^4.4.11"
+  }
+}

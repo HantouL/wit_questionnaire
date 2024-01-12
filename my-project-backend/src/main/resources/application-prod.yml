@@ -1,0 +1,33 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+  security:
+    jwt:
+      key: 'abcdefghijk'
+      expire: 7
+  datasource:
+    username: #数据库账号
+    password: #数据库密码
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: #数据库地址
+  mail:
+    host: smtp.163.com #邮箱host
+    username: #邮箱地址
+    password: #发邮件的秘钥
+  rabbitmq:
+    addresses: #rabbitMQ地址
+    port: 5672
+    username: #账号
+    password: #密码
+    virtual-host: /
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+aliyun: #阿里云SS信息
+  oss:
+    end-point:
+    access-key-id:
+    access-key-secret:
+    bucket-name:
